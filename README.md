@@ -31,56 +31,43 @@ When you add links, it’s important to make sure they don’t take your visitor
 Example Code
 
 
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Intro to CSS & JavaScript</title>
-  <style>
-    /* CSS: Styling */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      text-align: center;
-      margin-top: 50px;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    #message {
-      font-size: 20px;
-      color: blue;
-      margin: 20px;
-    }
-
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #45a049;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>HTML Formatting & Cybersecurity</title>
 </head>
 <body>
 
-  <h1>Welcome to My Web Page</h1>
-  <p id="message">Click the button to change this text!</p>
-  <button onclick="changeText()">Click Me</button>
+    <!-- Headings -->
+    <h1>Welcome to My Web Page</h1>
+    <h2>Text Formatting in HTML</h2>
 
-  <script>
-   
-    }
-  </script>
+    <!-- Paragraph with formatting -->
+    <p>This is a <b>bold</b> word, and this is an <i>italic</i> word. 
+    You can also <u>underline</u> text when needed.</p>
+
+    <!-- Line break -->
+    <p>This is the first line.<br>This is the second line after a break.</p>
+
+    <!-- Hyperlink with cybersecurity attributes -->
+    <h2>Useful Link</h2>
+    <p>
+        Visit our 
+        <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+            official website
+        </a>
+        for more information.
+    </p>
+
+    <!-- Note about cybersecurity -->
+    <h2>Cybersecurity Tips</h2>
+    <p>
+        Always make sure links go to <strong>trusted websites</strong> 
+        and use <em>https://</em> for better security.
+    </p>
 
 </body>
 </html>
+
 
