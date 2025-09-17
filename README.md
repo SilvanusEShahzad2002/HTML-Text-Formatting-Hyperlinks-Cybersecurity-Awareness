@@ -30,6 +30,8 @@ When you add links, it’s important to make sure they don’t take your visitor
 
 Example Code
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -75,11 +77,7 @@ Example Code
   <button onclick="changeText()">Click Me</button>
 
   <script>
-    // JavaScript: Interactivity
-    function changeText() {
-      const message = document.getElementById("message");
-      message.innerHTML = " You clicked the button!";
-      message.style.color = "green";
+   
     }
   </script>
 
