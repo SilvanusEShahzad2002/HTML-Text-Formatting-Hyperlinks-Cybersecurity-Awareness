@@ -78,7 +78,7 @@ Example Code
     // JavaScript: Interactivity
     function changeText() {
       const message = document.getElementById("message");
-      message.innerHTML = "🎉 You clicked the button!";
+      message.innerHTML = " You clicked the button!";
       message.style.color = "green";
     }
   </script>
